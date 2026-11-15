@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ram Kumar — Data Engineering portfolio showcasing Azure Data Factory, Databricks, PySpark, Python and SQL.">
+  <meta name="theme-color" content="#0b1120">
+  <title>Ram Kumar | Data Engineer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ram home">RAM<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO DATA ENGINEERING OPPORTUNITIES</div>
+        <p class="hero-kicker">Hello, I'm Ram</p>
+        <h1>Turning data into<br><span class="gradient-text">reliable data platforms.</span></h1>
+        <p class="hero-description">
+          Data Engineering professional focused on building and transforming data
+          pipelines with Azure Data Factory, Azure Databricks, PySpark and SQL.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌘</span> Azure Data Engineering</span>
+          <span><span class="meta-icon">⌁</span> Databricks & Lakehouse</span>
+          <span><span class="meta-icon">▤</span> SQL & PySpark</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a modern data pipeline">
+        <div class="visual-topline"><span>DATA PLATFORM / OVERVIEW</span><span class="live-indicator">● LIVE CONCEPT</span></div>
+        <div class="pipeline">
+          <div class="pipeline-node source-node">
+            <span class="node-icon">⇣</span><div><strong>INGEST</strong><small>Azure Data Factory</small></div><span class="node-state">01</span>
+          </div>
+          <div class="pipeline-connector"><span></span></div>
+          <div class="pipeline-node process-node">
+            <span class="node-icon">⌘</span><div><strong>TRANSFORM</strong><small>Databricks · PySpark</small></div><span class="node-state">02</span>
+          </div>
+          <div class="pipeline-connector"><span></span></div>
+          <div class="pipeline-node storage-node">
+            <span class="node-icon">▤</span><div><strong>STORE & GOVERN</strong><small>Delta Lake · Unity Catalog</small></div><span class="node-state">03</span>
+          </div>
+          <div class="pipeline-connector"><span></span></div>
+          <div class="pipeline-node output-node">
+            <span class="node-icon">↗</span><div><strong>DELIVER</strong><small>Analytics-ready data</small></div><span class="node-state">04</span>
+          </div>
+        </div>
+        <div class="visual-footer"><span>SCALABLE</span><span>·</span><span>GOVERNED</span><span>·</span><span>RELIABLE</span></div>
+        <div class="visual-glow"></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="section-label">01 / ABOUT</p>
+        <h2>Engineering with <span class="gradient-text">data at the core.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-intro">
+          <p class="lead">I work across data engineering workflows, from SQL-based data preparation to cloud ETL pipelines and Spark-based transformations.</p>
+          <p>My experience includes working on finance and healthcare-related data projects, developing Azure Data Factory pipelines, writing complex SQL queries, and using Databricks and PySpark for data processing.</p>
+          <p>This portfolio brings together selected professional contributions and independent learning projects. Each project is labelled so that production experience and learning work are clearly distinguished.</p>
+        </div>
+        <div class="about-facts">
+          <div class="fact-card"><span class="fact-number">01</span><div><strong>Data integration</strong><small>Pipeline orchestration and ingestion</small></div></div>
+          <div class="fact-card"><span class="fact-number">02</span><div><strong>Data transformation</strong><small>SQL, PySpark and Spark workflows</small></div></div>
+          <div class="fact-card"><span class="fact-number">03</span><div><strong>Modern data platform</strong><small>Azure, Databricks and Delta Lake concepts</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">02 / TECHNICAL TOOLKIT</p>
+          <h2>Tools I use to <span class="gradient-text">build with data.</span></h2>
+          <p class="section-subtitle">A practical overview of my data engineering technology stack.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-symbol">SQL</div><h3>SQL & Data Modelling</h3><p>Complex queries, joins, window functions, aggregations and data analysis.</p><div class="skill-tags"><span>SQL</span><span>CTEs</span><span>Window functions</span></div></article>
+          <article class="skill-card"><div class="skill-symbol symbol-blue">ADF</div><h3>Azure Data Factory</h3><p>ETL orchestration, pipeline activities, parameters and dynamic expressions.</p><div class="skill-tags"><span>ADF</span><span>ETL</span><span>Pipeline design</span></div></article>
+          <article class="skill-card"><div class="skill-symbol symbol-purple">DBX</div><h3>Azure Databricks</h3><p>Notebook-based processing and Lakehouse concepts for data transformation.</p><div class="skill-tags"><span>Databricks</span><span>Delta Lake</span><span>Unity Catalog</span></div></article>
+          <article class="skill-card"><div class="skill-symbol symbol-green">Py</div><h3>Python & PySpark</h3><p>Data manipulation, distributed transformations and Spark DataFrame operations.</p><div class="skill-tags"><span>Python</span><span>PySpark</span><span>Pandas</span></div></article>
+          <article class="skill-card"><div class="skill-symbol symbol-orange">ADLS</div><h3>Azure Storage</h3><p>Cloud data storage concepts and file-based data lake workflows.</p><div class="skill-tags"><span>ADLS Gen2</span><span>Parquet</span><span>CSV</span></div></article>
+          <article class="skill-card"><div class="skill-symbol symbol-pink">Git</div><h3>Development Workflow</h3><p>Version control and collaborative development practices for data projects.</p><div class="skill-tags"><span>Git</span><span>GitHub</span><span>VS Code</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <p class="section-label">03 / EXPERIENCE</p>
+        <h2>Professional <span class="gradient-text">contributions.</span></h2>
+        <p class="section-subtitle">Selected work, described according to the responsibilities performed.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-top"><div><p class="timeline-type">HEALTHCARE DOMAIN</p><h3>Om Sai Health Events Pvt. Ltd.</h3></div><span class="experience-tag">Professional project</span></div>
+            <p class="timeline-role">Data Engineering · Hospital Management</p>
+            <ul><li>Worked on ETL and data processing activities for a hospital management-related project.</li><li>Developed three ETL pipelines using Azure Data Factory and Databricks.</li><li>Worked with data transformation workflows using cloud data engineering technologies.</li></ul>
+            <div class="skill-tags"><span>Azure Data Factory</span><span>Databricks</span><span>PySpark</span></div>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-top"><div><p class="timeline-type">FINANCE DOMAIN</p><h3>ACCA – Finance Project</h3></div><span class="experience-tag">Client project</span></div>
+            <p class="timeline-role">Data Engineering · SQL Development</p>
+            <ul><li>Developed complex SQL queries to support data transformation and reporting requirements.</li><li>Provided SQL logic to the ETL development team for implementation in data workflows.</li><li>Also contributed to a limited number of Azure Data Factory pipelines.</li></ul>
+            <div class="skill-tags"><span>SQL</span><span>Azure Data Factory</span><span>ETL</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">04 / SELECTED PROJECTS</p>
+          <h2>Work that demonstrates <span class="gradient-text">how I think.</span></h2>
+          <p class="section-subtitle">Professional contributions and independent learning projects are separated below.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art art-health"><span class="art-chip">ADF + DATABRICKS</span><div class="art-flow"><i>Source</i><b>→</b><i>Transform</i><b>→</b><i>Target</i></div></div>
+            <div class="project-body"><div class="project-meta"><span>PROFESSIONAL PROJECT</span><span>HEALTHCARE</span></div><h3>Hospital Data ETL Workflows</h3><p>Contributed to ETL processing for a hospital management project, including development of three pipelines using Azure Data Factory and Databricks.</p><div class="skill-tags"><span>ADF</span><span>Databricks</span><span>ETL</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-finance"><span class="art-chip">SQL DEVELOPMENT</span><div class="code-lines"><i>SELECT</i><i>JOIN</i><i>WINDOW</i><i>AGGREGATE</i></div></div>
+            <div class="project-body"><div class="project-meta"><span>PROFESSIONAL CONTRIBUTION</span><span>FINANCE</span></div><h3>Finance Data SQL Development</h3><p>Wrote complex SQL queries for a finance client project and supplied transformation logic to the ETL development team.</p><div class="skill-tags"><span>SQL</span><span>Data transformation</span><span>ETL</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-lakehouse"><span class="art-chip">INDEPENDENT LEARNING</span><div class="medallion"><i>BRONZE</i><b>→</b><i>SILVER</i><b>→</b><i>GOLD</i></div></div>
+            <div class="project-body"><div class="project-meta"><span>UDEMY COURSE PROJECT</span><span>LAKEHOUSE</span></div><h3>Databricks Lakehouse Project</h3><p>Completed a hands-on learning project using Spark and Unity Catalog, exploring notebook-based transformations and Lakehouse organization.</p><div class="skill-tags"><span>Databricks</span><span>Spark</span><span>Unity Catalog</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-covid"><span class="art-chip">INDEPENDENT LEARNING</span><div class="data-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="project-body"><div class="project-meta"><span>UDEMY COURSE PROJECT</span><span>AZURE</span></div><h3>COVID Data Pipeline</h3><p>Course-based project exploring data pipeline implementation with Azure Data Factory. Add your detailed architecture and source details here.</p><div class="skill-tags"><span>ADF</span><span>Azure</span><span>Data pipelines</span></div></div>
+          </article>
+        </div>
+        <p class="project-note">Project descriptions are intentionally high-level. Add sanitized architecture diagrams, code samples and GitHub repository links before presenting any project as a public case study. Never upload client data or confidential code.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="learning">
+      <div class="section-heading">
+        <p class="section-label">05 / CONTINUOUS LEARNING</p>
+        <h2>Learning the <span class="gradient-text">modern data stack.</span></h2>
+      </div>
+      <div class="learning-panel">
+        <div><span class="learning-icon">✳</span><h3>Lakehouse & Data Governance</h3><p>Building knowledge of Delta Lake, Unity Catalog, managed and external tables, volumes and governance concepts.</p></div>
+        <div><span class="learning-icon">⌘</span><h3>Spark Engineering</h3><p>Practising PySpark transformations, partitioning, joins, incremental processing and performance optimization.</p></div>
+        <div><span class="learning-icon">↗</span><h3>Cloud Data Platforms</h3><p>Expanding practical knowledge of Azure data services and modern data platform architecture.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="section-label">06 / CONTACT</p>
+        <h2>Let's build something<br><span class="gradient-text">meaningful with data.</span></h2>
+        <p class="contact-copy">Interested in Data Engineering opportunities or technical collaboration? Feel free to connect.</p>
+        <div class="contact-actions">
+          <!-- Replace the placeholder links below with your real profile URLs. -->
+          <a class="button button-primary" href="mailto:ramkumartech17@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/ram-kumar-datainsights/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/ramkumartech17" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="contact-footnote">Connect with me through email, LinkedIn or GitHub.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home">RAM<span>.</span></a><p>Designed and built with HTML, CSS & JavaScript.</p><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
