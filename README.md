@@ -1,4 +1,4 @@
-# Ram — Data Engineer Portfolio
+# Ram Kumar — Data Engineer Portfolio
 
 A responsive, dark-theme personal portfolio built with plain HTML, CSS and JavaScript. It is designed for GitHub Pages and requires no build tools.
 
