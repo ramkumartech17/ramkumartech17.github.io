@@ -182,3 +182,28 @@ h2 { font-size: clamp(2rem, 3.8vw, 3.1rem); letter-spacing: -.055em; line-height
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+
+/* Certifications */
+.certifications-section { background: linear-gradient(180deg, rgba(17,29,48,.42), rgba(13,22,38,.25)); border-top: 1px solid rgba(148,163,184,.07); border-bottom: 1px solid rgba(148,163,184,.07); }
+.certification-card { display: grid; grid-template-columns: 190px 1fr; gap: 30px; align-items: center; max-width: 920px; padding: 28px; border: 1px solid rgba(148,163,184,.18); border-radius: 15px; background: linear-gradient(135deg, rgba(22,38,60,.92), rgba(12,22,39,.92)); box-shadow: 0 22px 65px rgba(0,0,0,.16); }
+.cert-badge-wrap { position: relative; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.cert-badge { display: block; width: 148px; height: 148px; object-fit: contain; }
+.cert-earned { color: #86efac; border: 1px solid rgba(52,211,153,.25); background: rgba(52,211,153,.09); border-radius: 30px; padding: 4px 12px; font-size: .58rem; letter-spacing: .16em; font-weight: 700; }
+.cert-topline { display: flex; justify-content: space-between; gap: 12px; color: var(--cyan); font-size: .62rem; letter-spacing: .12em; font-weight: 700; }
+.cert-status { color: var(--green); }
+.cert-status i { display: inline-block; width: 6px; height: 6px; margin: 0 5px 1px 0; border-radius: 50%; background: var(--green); }
+.cert-details h3 { max-width: 650px; margin: 13px 0 8px; font-size: clamp(1.25rem, 2.4vw, 1.7rem); line-height: 1.3; }
+.cert-exam { color: var(--muted); font-size: .86rem; margin-bottom: 0; }
+.cert-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+.cert-tags span { color: #b8c7db; background: rgba(148,163,184,.09); border: 1px solid rgba(148,163,184,.12); border-radius: 5px; padding: 5px 9px; font-size: .68rem; }
+.cert-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 19px; padding-top: 15px; border-top: 1px solid var(--line); }
+.cert-date { color: var(--subtle); font-size: .76rem; }
+.cert-footer a { color: var(--cyan); font-size: .78rem; font-weight: 700; }
+.cert-footer a:hover { color: #a5f3fc; }
+.cert-note { color: var(--subtle); font-size: .68rem; margin: 12px 0 0; }
+@media (max-width: 650px) {
+  .certification-card { grid-template-columns: 1fr; text-align: center; padding: 22px; gap: 22px; }
+  .cert-topline, .cert-footer { justify-content: center; }
+  .cert-tags { justify-content: center; }
+}

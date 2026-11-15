@@ -36,3 +36,26 @@ Open `index.html` in a modern browser. No package installation is required.
 ## Important
 
 A GitHub Pages website is public. Do not upload personal documents or confidential information unless you intentionally want them publicly accessible.
+
+
+## DP-750 certification section
+
+The portfolio includes a custom DP-750 credential graphic and a certification card dated 14 November 2026, based on the date supplied by the portfolio owner. The graphic is a custom portfolio illustration, not the official Microsoft-issued badge. Replace it with the official badge image downloaded from the Microsoft Learn credentials profile when available, and update the certification link to the personal share/verification URL.
+
+
+## Add your downloadable resume
+
+The website now has **Download Resume** links in the hero and contact sections. To make them work:
+
+1. Export your current resume as a PDF.
+2. Name the PDF exactly: `Ram-Kumar-Data-Engineer-Resume.pdf`.
+3. Upload it into the repository's existing `assets` folder.
+4. Commit the file.
+
+The final path must be `assets/Ram-Kumar-Data-Engineer-Resume.pdf`. The website links use this exact path. Do not upload a Word document or a placeholder file; use your final PDF resume.
+
+
+## Microsoft credential verification link
+
+The DP-750 certification card links to the personal Microsoft Learn credential record:
+https://learn.microsoft.com/api/credentials/share/en-us/RamKumar-5750/5C22BC01BA013057?sharingId=FBB5CA5DED6B733A
